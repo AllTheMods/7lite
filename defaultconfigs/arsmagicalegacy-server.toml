@@ -1,0 +1,67 @@
+#The default mana to burnout ratio, used in calculating spell costs.
+#Range: 0.0 ~ 10.0
+burnout_ratio = 0.5
+#The time in ticks between multiblock validation checks for the crafting altar.
+#Range: 1 ~ 200
+crafting_altar_check_time = 20
+#The maximum amount of etherium that can be stored in an obelisk / celestial prism / black aurem.
+#Range: 1 ~ 32767
+max_etherium_storage = 5000
+#The maximum number of shape groups allowed for new spells.
+#Range: 0 ~ 5
+max_shape_groups = 5
+
+[mana]
+	#The base value for mana calculation. Mana is calculated as base + multiplier * (level - 1).
+	#Range: 0.0 ~ 10000.0
+	base = 100.0
+	#The multiplier for mana calculation. Mana is calculated as base + multiplier * (level - 1).
+	#Range: 0.0 ~ 10000.0
+	multiplier = 10.0
+
+[burnout]
+	#The base value for burnout calculation. Mana is calculated as base + multiplier * (level - 1).
+	#Range: 0.0 ~ 10000.0
+	base = 100.0
+	#The multiplier for burnout calculation. Mana is calculated as base + multiplier * (level - 1).
+	#Range: 0.0 ~ 10000.0
+	multiplier = 10.0
+
+[leveling]
+	#The base value for leveling calculation. XP cost is calculated as multiplier * base ^ level.
+	#Range: 0.0 ~ 10000.0
+	base = 1.2
+	#The multiplier for leveling calculation. XP cost is calculated as multiplier * base ^ level.
+	#Range: 0.0 ~ 10000.0
+	multiplier = 2.4
+	#The extra blue skill points a player gets on level 1.
+	#Range: 0 ~ 32767
+	extra_blue_skill_points = 2
+
+[spell_parts]
+	#Damage of damage-based components, in half hearts.
+	#Range: 1 ~ 32767
+	damage = 6
+	#Duration of effect-based components, in ticks.
+	#Range: 1 ~ 32767
+	duration = 600
+
+[entities]
+
+	[entities.dryad]
+		#The time in ticks between bonemeal uses.
+		#Range: 1 ~ 72000
+		bonemeal_timer = 200
+		#The chance of bonemeal being applied.
+		#Range: 0.0 ~ 1.0
+		bonemeal_chance = 0.01
+		#The radius of bonemeal application.
+		#Range: 1 ~ 32767
+		bonemeal_radius = 2
+		#The time in seconds between killing dryads before the counter is reset.
+		#Range: 0 ~ 36000
+		kill_cooldown = 60
+		#The number of dryads killed before a nature guardian spawns.
+		#Range: 1 ~ 32767
+		kills_to_nature_guardian_spawn = 20
+
