@@ -8,6 +8,10 @@ onEvent('tags.items', e => {
   e.add('forge:raw_ores/cobalt', 'tconstruct:raw_cobalt');
   e.add('forge:dusts/cobalt', 'kubejs:cobalt_dust');
 
+  e.add('forge:raw_ores/copper', 'minecraft:raw_copper');
+  e.add('forge:raw_ores/iron', 'minecraft:raw_iron');
+  e.add('forge:raw_ores/gold', 'minecraft:raw_gold');
+
   e.add('forge:melons','minecraft:melon_slice')
 
   // fix raw block crafting for other mods
