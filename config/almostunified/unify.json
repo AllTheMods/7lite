@@ -1,8 +1,8 @@
 {
   "modPriorities": [
     "minecraft",
-    "alltheores",
     "kubejs",
+    "alltheores",
     "crafttweaker",
     "create",
     "thermal",
@@ -87,24 +87,4 @@
   ],
   "ignoredRecipes": [],
   "itemsHidingJeiRei": true
-}ipeTypes": [
-    "cucumber:shaped_tag"
-  ],
-  "ignoredRecipes": [],
-  "itemsHidingJeiRei": true
-}        "ruby",
-        "sapphire",
-        "signalum",
-        "silver",
-        "steel",
-        "sulfur",
-        "tin",
-        "tungsten",
-        "uranium",
-        "zinc"
-    ],
-    "ignoredTags": [],
-    "ignoredRecipeTypes": ["cucumber:shaped_tag"],
-    "ignoredRecipes": [],
-    "itemsHidingJeiRei": true
 }
